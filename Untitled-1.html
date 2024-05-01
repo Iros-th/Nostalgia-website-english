@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    .hero-image {
+      background: url(ad\ 2.png) no-repeat center;
+      background-size: cover;
+      height: 600px;
+      position: relative;
+    }
+
+    .hero-text {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      padding: 20px;
+    }
+
+    .hero-text h1 {
+      font-size: 50px;
+      margin-bottom: 10px;
+    }
+
+    .hero-text button {
+      background-color: #013d4c;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .hero-text button:hover {
+      background-color: #024a6c;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #013d4c;
+      margin-bottom: 20px;
+    }
+
+    .highlight {
+      color: #ff6347;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #013d4c;
+      color: white;
+    }
+
+    footer a {
+      color: white;
+    }
+
+    #faq-section {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #faq-section h1 {
+      font-size: 48px;
+      color: #013d4c;
+      text-align: center;
+    }
+
+    .accordion {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .accordion-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .accordion-header:hover {
+      background-color: #f5f5f5;
+    }
+
+    .accordion-icon {
+      transition: transform 0.3s;
+    }
+
+    .accordion-content {
+      display: none;
+      margin-top: 5px;
+    }
+
+    .accordion.active .accordion-content {
+      display: block;
+    }
+
+    .accordion.active .accordion-icon {
+      transform: rotate(180deg);
+    }
+  </style>
+  <script>
+    function scrollToFaq() {
+      const faqSection = document.getElementById("faq-section");
+      faqSection.scrollIntoView({ behavior: "smooth" });
+    }
+  </script>
+</head>
+<body>
+  <header class="hero-image">
+    <div class="hero-text">
+      <h1>Experience Nostalgia</h1>
+      <h3>A captivating journey into the past</h3>
+      <a href="https://www.youtube.com/watch?v=4b33NTAuF5E"><button>Discover More</button></a>
+      <a href="file:///C:/Users/blaze/Downloads/nostalgia%20ad/nostalgia%20english%20ad%20code.html"><button>FAQ</button></a>
+    </div>
+  </header>
+  <main>
+    <p>Step into a world where cherished memories come alive with Nostalgia, a groundbreaking experience that connects you with your loved ones like never before.</p>
+    <p>Relive precious moments, hear their voices, and feel their presence surrounding you. Whether it's a beloved grandparent, a cherished friend, or a dear pet, Nostalgia brings them back to life in stunning detail.</p>
+    <p>Through advanced technology and heartfelt design, we've crafted an experience that honors the essence of who they were. Rediscover the laughter, the wisdom, and the love that made them so special.</p>
+    <p>With Nostalgia, their legacy lives on, providing comfort and connection whenever you need it most. Experience the power of remembrance and let Nostalgia become a part of your story.</p>
+    <p>Bask in the warmth of nostalgia and reconnect with those who have left an indelible mark on your heart. <span class="highlight">Experience Nostalgia</span> today.</p>
+  </main>
+      <div class="accordion-content">
+        <p>To get started with Nostalgia, simply visit our website and sign up for an account. You will then be prompted to upload images and videos of your loved ones and answer some questions about them. Our AI algorithms will then create a virtual avatar for you to interact with. You can also purchase additional features and services to enhance your Nostalgia experience.</p>
+      </div>
+  <footer>
+    <p><font color ="#000000">For more information on our ethical considerations, please visit <a href="https://journal-bcs.springeropen.com/articles/10.1186/s13173-021-00121-x" target="_blank">this article</a>.</font>
+    </p>
+  </footer>
+</body>
+</html>
