@@ -76,6 +76,71 @@
   <a href="https://iros-th.github.io/Nostalgia-website-english/Homepage.html" class="back-button">
     <i class="fas fa-arrow-left"></i> Back to Homepage
   </a>
+  </head>
+<body>
+  <div class="container">
+    <div class="accordion">
+      <div class="accordion-header">
+        <h2>What is Nostalgia?</h2>
+        <div class="accordion-icon">+</div>
+      </div>
+      <div class="accordion-content hidden">
+        <p>Nostalgia uses a combination of advanced imaging technology, artificial intelligence, and virtual reality to create a lifelike experience of your loved ones. We capture high-resolution images and videos of your loved ones and use AI algorithms to analyze their facial expressions, voice, and mannerisms. We then use this data to create a virtual avatar that you can interact with in a virtual reality environment.</p>
+      </div>
+    </div>
+    <div class="accordion">
+      <div class="accordion-header">
+        <h2>Is Nostalgia available worldwide?</h2>
+        <div class="accordion-icon">+</div>
+      </div>
+      <div class="accordion-content hidden">
+        <p>Currently, Nostalgia is available in select countries. However, we are working on expanding our services to more regions in the near future. Please check our website for updates on availability in your area.</p>
+      </div>
+    </div>
+    <div class="accordion">
+      <div class="accordion-header">
+        <h2>Can I customize my Nostalgia experience?</h2>
+        <div class="accordion-icon">+</div>
+      </div>
+      <div class="accordion-content hidden">
+        <p>Yes, you can customize your Nostalgia experience to your liking. You can choose the virtual environment, the level of detail in the avatar, and the interactions you want to have with your lovedones. You can also add new memories and experiences to the avatar over time.</p>
+      </div>
+    </div>
+    <div class="accordion">
+      <div class="accordion-header">
+        <h2>Is Nostalgia safe and secure?</h2>
+        <div class="accordion-icon">+</div>
+      </div>
+      <div class="accordion-content hidden">
+        <p>Yes, Nostalgia takes data privacy and security very seriously. We use advanced encryption and security measures to protect your data and ensure that your Nostalgia experience is safe and secure. We also comply with all relevant data protection laws and regulations.</p>
+      </div>
+    </div>
+    <div class="accordion">
+      <div class="accordion-header">
+        <h2>How do I get started with Nostalgia?</h2>
+        <div class="accordion-icon">+</div>
+      </div>
+      <div class="accordion-content hidden">
+        <p>To get started with Nostalgia, simply visit our website and sign up for an account. You will then be prompted to upload images and videos of your loved ones and answer some questions about them. Our AI algorithms will then create a virtual avatar for you to interact with. You can also purchase additional features and services to enhance your Nostalgia experience.</p>
+      </div>
+    </div>
+  </div>
+    <footer>
+    <p>For more information on our ethical considerations, please visit <a href="https://journal-bcs.springeropen.com/articles/10.1186/s13173-021-00121-x" target="_blank">this article</a>.</p>
+  </footer>
+    <script>
+    const accordions = document.querySelectorAll('.accordion');
+
+    accordions.forEach(accordion => {
+      const icon = accordion.querySelector('.accordion-icon');
+      const content = accordion.querySelector('.accordion-content');
+
+      icon.addEventListener('click', () => {
+        content.classList.toggle('hidden');
+        icon.textContent = icon.textContent === '+' ? '-' : '+';
+      });
+    });
+  </script>
   <div class="container">
     <!-- rest of your code -->
   </div>
